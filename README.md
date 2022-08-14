@@ -17,9 +17,11 @@
 # Examples
 How to use ```scrape_seq```, using ```scrape__annotated_seq``` is exactly the same.
  ```python
+from ensembl_scraper import scraper
+
  url = "https://www.ensembl.org/Homo_sapiens/Gene/Sequence?g=ENSG00000175899;r=12:9067664-9116229"
 
- data = EnsemblScraper()
+ data = scraper.EnsemblScraper()
  data.scrape_seq(url, 5)
  data.save("sequence.csv", "w")
  ```

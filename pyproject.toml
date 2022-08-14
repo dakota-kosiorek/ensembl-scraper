@@ -3,8 +3,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "ensembl-scraper"
-version = "0.0.1"
+name = "ensembl_scraper"
+version = "0.0.3"
 authors = [
   { name="Dakota Kosiorek", email="dakota.michael.kosiorek@gmail.com" },
 ]
